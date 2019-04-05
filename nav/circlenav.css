@@ -1,0 +1,162 @@
+/* Nav experiment css  */
+
+/*
+
+Generic keyframe and animation
+
+@keyframes btn1frames {from  {
+		transform: rotate(0deg);
+	} to {
+		transform: rotate(0deg);
+	}
+}
+.btn1animation {
+	
+	animation-name:  btn1frames;
+	animation-duration: 0.5s;
+	animation-delay: 0s;
+	animation-direction: var(--forback);
+	animation-fill-mode: forwards;
+}
+*/
+
+
+.circlenav {
+
+	/*width: 400px;*/
+	/*height: 400px;*/
+	color: rgb(0,150,150);
+	background-color: transparent;
+	display: block;
+
+
+}
+
+.buttonwrapper {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*transform: scale(1.2,1.2);*/
+	margin: 0%;
+	transform-origin: center center;
+	overflow: visible;
+	z-index: 1;
+	
+}
+
+.fanwrapper {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	transform-origin: center center;
+
+}
+
+.btntext {
+	font-family: "Courier New", Courier, monospace;
+	fill: black;
+	opacity: 1;
+	font-size: 5pt;
+	font-weight: bold;
+}
+
+
+
+.centralbutton {
+	/*position: absolute;*/
+	color: red;
+	/*fill: none;*/
+	transform-origin: 0% 0%;
+	/*fill: radial-gradient(white 62%, #ff00bc 70%, #ff00bc 40%);*/
+
+	/*width: 100%;*/
+    /*height: 100%;*/
+    /*border-radius: 100%;*/
+    opacity: 1;
+    /*border: 10px outset purple;*/
+    
+    /*box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.7);*/
+
+    /*background-color: silver;*/
+
+    transition-property: transform;
+    transition-duration: 1s;
+
+    z-index: 100;
+}
+
+
+#btn1 { transform: rotate(0deg);  }
+#btn2 { transform: rotate(50deg);  }
+#btn3 { transform: rotate(100deg);  }
+#btn4 { transform: rotate(150deg);  }
+
+
+.buttonlayer {
+	position: absolute;
+	/*width: 100%;*/
+    /*height: 100%;*/
+    border-radius: 100%;
+    overflow: visible;
+    fill: gray;
+
+
+    /*transform: scale(0.8, 0.8);*/
+    transform-origin: 0 0;
+    
+    opacity: 1;
+
+    /*transform: scale(0.2,0.2);*/
+
+    
+
+    /*background-image: radial-gradient(white 62%, #ff00bc 70%, #ff00bc 40%);*/
+    /*box-shadow: 0px 0px 4px 4px rgba(0, 0, 255, 0.7);*/
+
+    /*clip-path: polygon(50% 50%, 25% -10%, 75% -10%, 50% 50%);*/
+
+    transition-property: transform, width;
+    transition-duration: 1s;
+    z-index: 90;
+
+    /*fill: yellow;*/
+    
+
+}
+
+
+
+.centergraphic {
+	/*transform-origin: 50% 50%;*/
+	/*transform: translate(10,10);*/
+	transform: rotate(125deg) scale(1,1);*/
+}
+
+
+.centergraphic:hover #btn1 {
+	transform: rotate(0deg) scale(1.1,1.1);
+
+}
+
+.centergraphic:hover #btn2 {
+	transform: rotate(50deg) scale(1.1,1.1);
+
+}
+.centergraphic:hover #btn3 {
+	transform: rotate(100deg) scale(1.1,1.1);
+
+}
+.centergraphic:hover #btn4 {
+	transform: rotate(150deg) scale(1.1,1.1);
+
+}
+
+.centergraphic:hover .centralbutton {
+	/*transform: rotate(0deg) scale(1,1);*/
+
+	/*background-color:yellow; */
+	/*background-image:none;*/
+}
+
+

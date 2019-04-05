@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
+		
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="nav/circlenav.css">
+		<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
 		<title> Erik's Github page  </title>
+
+
+		<!-- 
+
+		MathJax import MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}}); MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		
+		MathJax.Hub.Register.StartupHook("End",function () { 
+  			alert('MathJax Rxy')  
+  		});
+
+
+		-->
+
+		<script type="text/javascript" async
+		 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+		 </script>		
+		
+		
+		
 	</head>
 
-	<body>
-		<h1> Title placeholder </h1>
+	<body id="bodyid">
+
+		<div class="sitewrapper">
+			<div id="header-wrapper">
+				<div id="navigation"> </div>
+				<div id="headerholder"></div>
+			</div>
+
+			<div class="mainbody-wrapper">
+				<div id="mainbodyholder"></div>
+			</div>
+
+		</div>
+
+
+
+
+
+		<!-- React import code
+
+		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  		<script src="react_test.js"> </script>
+		-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script>
+		$(document).ready(function(){
+		   $('#navigation').load("nav/circlenav.html");
+		   $('#headerholder').load("./header.html");
+		   $('#mainbodyholder').load("./html/home.html");
+
+		});
+		</script>
+
+		
+
+
+
 
 	</body>
 

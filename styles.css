@@ -1,0 +1,136 @@
+
+#bodyid {
+	margin: 0;
+}
+
+.sitewrapper {
+	/*display: grid;*/
+	/*grid-template-columns: 20% auto;*/
+	/*grid-template-rows: auto;*/
+	/*height: 100%;*/
+	/*width: 100%;*/
+	/*color: red;*/
+	/*background-color: lightblue;*/
+	/*background-color: #6d6de5; */
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+}
+
+#navigation {
+	display: block;
+	/*height: 50%;*/
+	/*width: 50%;*/
+	/*align-self: flex-start;*/
+	/*justify-content: flex-start;*/
+}
+
+#headerholder {
+	display: block;
+	/*float: right;*/
+	/*justify-content: right;*/
+
+}
+
+.mainwrapper {
+	/*margin-top: -33%;*/
+	
+}
+
+
+#header-wrapper {
+
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+
+
+	font-weight: bold;
+	color: gray;
+	position: relative;
+	border: 0px outset black;
+	/*background-color: red;  */
+	margin-right: 0%;
+	/*margin-top: -15%;*/
+	margin-left: 0%;
+	/*margin-right: 10%;*/
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: white; 
+	padding: 0px;
+	/*box-shadow: 5px 5px 5px #000000;*/
+
+
+	/*text-align: left;*/
+	font-size: 3em;
+	/*padding: 30px;*/
+}
+
+.header {
+	font-family: ABeeZee, Tahoma, Geneva, sans-serif;
+	white-space:nowrap;
+	margin-top: 35%; 
+	text-align: left;
+	/*justify-content: flex-end;*/
+	
+}
+
+.mainbody-wrapper {
+
+	
+	position: relative;
+
+
+	/*margin-left: 20%;*/
+	/*margin-right: 20%;*/
+	margin-top: 0%;
+	/*margin-bottom: 15%;*/
+
+	padding: 20px;
+	border: 0px outset black;
+	background-color: white; 
+	box-shadow: 0px 0px 100px -7px black;
+
+	/*transition-property: opacity;*/
+	/*transition-duration: 1s;*/
+	/*opacity: 0.6;*/
+	animation: kf-fadein 0.5s;
+
+
+/*	text-align: left;
+	font-size: 3em;
+	padding: 30px;*/
+}
+
+@keyframes kf-fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+/*.centergraphic:hover #btn1 {
+	transform: rotate(0deg) scale(1.1,1.1);
+
+}*/
+
+
+.mainbody p {
+	font-family: ABeeZee, Tahoma, Geneva, sans-serif;
+
+
+
+	text-align: justify;
+
+	/*font-size: 3em;*/
+	/*padding: 30px;*/
+}
+
+.mainbody h1 { 
+
+	font-weight: bold;
+	color: darkgray;
+	font-size: 2.5em;
+ }
+
+

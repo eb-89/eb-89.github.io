@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<link rel="stylesheet" type="text/css" href="../nav/circlenav.css">
+		<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+		<title> About me </title>
+
+		<script type="text/javascript" async
+		 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+		 </script>		
+		
+		
+	</head>
+
+	<body id="bodyid">
+
+		<div class="sitewrapper">
+			<div id="header-wrapper">
+				<div id="navigation"> </div>
+				<div id="headerholder"></div>
+			</div>
+
+			<div class="mainbody-wrapper">
+				<div id="mainbodyholder"></div>
+			</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script>
+		$(document).ready(function(){
+		   $('#navigation').load("../nav/circlenav.html");
+		   $('#headerholder').load("../header.html");
+		   $('#mainbodyholder').load("./cvbody.html");
+
+		});
+		</script>
+
+		
+
+
+
+
+	</body>
+
+</html>
