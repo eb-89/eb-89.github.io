@@ -1,0 +1,92 @@
+/* Nav experiment css  */
+
+/*
+
+Generic keyframe and animation
+
+@keyframes btn1frames {from  {
+		transform: rotate(0deg);
+	} to {
+		transform: rotate(0deg);
+	}
+}
+.btn1animation {
+	
+	animation-name:  btn1frames;
+	animation-duration: 0.5s;
+	animation-delay: 0s;
+	animation-direction: var(--forback);
+	animation-fill-mode: forwards;
+}
+*/
+
+#navbar {
+
+  background-color: gray;
+  position: sticky;
+	top: 0px;
+
+}
+
+#navbar .navbartitle {
+  font-family: ABeeZee, Tahoma, Geneva, sans-serif;
+  white-space:nowrap;
+  margin-top: 0%; 
+  text-align: left;
+  font-size: 16pt;
+  color:darkgray;
+
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /*max-width: ;*/
+  /*overflow: scroll;*/
+  /*justify-content: flex-end;*/
+}
+
+
+
+#navbar ul {
+
+    font-family: ABeeZee, Tahoma, Geneva, sans-serif;
+
+    display: inline-flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    /*width: 100%;*/
+
+    font-size: 16pt;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#navbar li a, a:link {
+
+	cursor: pointer;
+	white-space: nowrap;
+	color:darkgray;
+  	display: block;
+  	padding: 20px;
+  	/*background-color: gray;*/
+  	padding-left: 30px;
+  	padding-right: 30px;
+  	text-decoration: none;
+}
+#navbar li a:visited {
+
+  	color: darkgray;
+}
+
+#navbar li a:hover {
+  	color: white;
+}
+
+#navbar li a:active {
+  	color: black;
+}
+
+

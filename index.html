@@ -4,8 +4,13 @@
 		
 		
 		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="stylesheet" type="text/css" href="nav/circlenav.css">
+		<!-- <link rel="stylesheet" type="text/css" href="nav/circlenav.css"> -->
+		<link rel="stylesheet" type="text/css" href="nav/navbar.css">
+		<link rel="stylesheet" type="text/css" href="/webcv/webcv.css">
+		
 		<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 		<title> Erik's Github page  </title>
 
 
@@ -31,15 +36,23 @@
 
 	<body id="bodyid">
 
-		<div class="sitewrapper">
-			<div id="header-wrapper">
-				<div id="navigation"> </div>
-				<div id="headerholder"></div>
+		<div class="site-wrapper">
+
+			<div id="navigation"> </div>
+
+			<div id="page-wrapper">
+
+				<div id="header-wrapper">
+					<div id="header-holder"></div>
+				</div>
+				<div id="mainbody-wrapper">
+					<div id="mainbody-holder"> </div>
+				</div>
+				<div id="footer">Some fotter text</div>	
+			
 			</div>
 
-			<div class="mainbody-wrapper">
-				<div id="mainbodyholder"></div>
-			</div>
+		
 
 		</div>
 
@@ -58,9 +71,9 @@
 		
 		<script>
 		$(document).ready(function(){
-		   $('#navigation').load("nav/circlenav.html");
-		   $('#headerholder').load("./header.html");
-		   $('#mainbodyholder').load("./html/home.html");
+		   $('#navigation').load("/nav/navbar.html");
+		   $('#header-holder').load("/html/headers.html #homeheader");
+		   $('#mainbody-holder').load("/html/home.html");
 
 		});
 		</script>

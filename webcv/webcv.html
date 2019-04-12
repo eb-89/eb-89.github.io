@@ -1,0 +1,119 @@
+
+<div id="webcvbody">
+<!-- <link rel="stylesheet" type="text/css" href="/webcv/webcv.css"> -->
+
+<pre>
+<code class="cvmarkup">
+
+<div class="commentdetails">
+/*  
+* Erik Bertse 
+* (e-mail adress, contact details)
+*
+*/
+</div>
+
+
+<div class="codecv" >
+  
+import java.io.*;
+public class  <span class="cvtitle">CurriculumVitae</span> {
+
+  <div class="sectionbody" >
+  public static String <span class="subtitle "> utbildning </span> () {
+    
+    return  "<span class="subsubtitle"> International IT College of Sweden 2005 - 2008 </span> \n \n" +
+
+            "<span class="txt"> - Samh&aumlllsprogrammet inr. ekonomi</span> \n" +
+            "<span class="txt"> - 3300 po&aumlng totalt</span> \n" +
+            "<span class="txt"> - L&aumlste naturvetenskapliga/matematiska kurser ut&oumlver programmets kurser</span> \n \n" +
+
+            "<span class="subsubtitle"> Uppsala Universitet 2012 - 2018</span> \n\n" +
+
+            "<span class="txt"> - Tekniskt bas&aringr - 0 hp</span> \n" +
+
+            "<span class="txt"> - Kandidatprogrammet i matematik - 180 hp</span> \n" +
+            "<span class="txt">   - Avslutad kandidatexamen, VT 2018, i matematik med datavetenskap som biomr&aringde</span> \n" +
+            "<span class="txt">   - Huvudsakligt intresse i teoretiska &aumlmnen inom matematik</span> \n" +
+            "<span class="txt">   - Mycket goda kunskaper inom calculus/linj&aumlr algebra</span> \n" +
+            "<span class="txt">   - Bekant med statistik och grundl&aumlggande statistiska metoder</span> \n \n" +
+
+            "<span class="txt"> - Diverse kurser inom datavetenskap - ca 80 hp</span> \n"+
+            "<span class="txt">   - Huvudsakligen p&aring avancerad niv&aring</span> \n" +
+            "<span class="txt">   - Exempel p&aring praktiska &aringstadkommelser under utbildningen:</span> \n" +
+            "<span class="txt">     - Grafiska projekt i OpenGL (GLSL/C++)</span> \n" +
+            "<span class="txt">     - AI som spelar Othello (SML)</span> \n" +
+            "<span class="txt">     - Simplare parser (Java)</span> \n" +
+            "<span class="txt">     - Simplare maskininl&aumlrning (Python/scikit-learn)</span> \n" +
+            "<span class="txt">     - Programmerat en Leap Motion Controller (Java-liknande milj&ouml)</span> \n" +
+            "<span class="txt">     - En hel del C-kod f&oumlr mer teoretiskt lagda kurser (bl. a. MPI)</span> \n" +
+            "<span class="txt">     - Basf&aumlrdigheter i Matlab, Javascript, Adobe-sviten(Photoshop etc), MS Office m.fl.</span> \n" +
+            "<span class="txt">     - Simplare databas-design samt MySQL </span>\n" +
+            "<span class="txt">     - Bekant med enklare testmetodik samt TDD </span>\n" +
+            "<span class="txt">     - Sudoku App (Java/Android)</span> \n" +
+            "<span class="txt">     - Git</span> \n \n";
+  }
+  </div>
+  <div class="aebody" >
+  public static String  <span class="subtitle ">arbetslivserfarenhet</span> () {
+    
+    return  "<span class="subsubtitle"> Diverse str&oumljobb - 2008</span> \n \n" +
+        
+            "<span class="txt"> - Lagerarbetare, bi-odlare, telefonf&oumlrs&aumlljare och liknande</span> \n \n" +
+        
+            "<span class="subsubtitle"> Precont AB 2009 - 2011</span> \n \n" +
+    
+            "<span class="txt"> - Kontrollant - Kontrolltj&aumlnster av olika slag</span> \n" +
+            "<span class="txt">   - Mycket resor runtom i Sverige</span> \n" +
+            "<span class="txt">   - Hade delansvar i tr&aumlningen av nya medarbetare</span> \n" +
+            "<span class="txt">   - Utf&oumlrande och rapporterande av kontroller, samarbete i team av tv&aring</span> \n \n";
+  }
+  </div>
+  <div class="ovrigtbody" >
+
+  public static String <span class="subtitle "> ovrigt </span>() {
+    
+    return  "<span class="subsubtitle"> Spr&aringkliga f&aumlrdigheter</span> \n \n" +
+        
+            "<span class="txt"> - Svenska, engelska</span> \n" + 
+            "<span class="txt">   - Fullst&aumlndigt obehindrad i tal och skrift</span> \n" +
+            "<span class="txt">   - Har Cambridge ESOL certifikat i engelska p&aring h&oumlgsta niv&aring (CPE)</span> \n \n" +
+        
+            "<span class="txt"> - Ryska</span> \n" +
+            "<span class="txt">   - Ryskt p&aringbr&aring, talar flytande, med enklare l&aumls- och skrivf&oumlrm&aringga </span>\n \n" +
+            "<span class="txt"> - Franska</span> \n" +
+            "<span class="txt">   - Knackig skolfranska med enklare l&aumlsf&oumlrst&aringelse</span> \n \n" +
+        
+            "<span class="subsubtitle"> Andra f&aumlrdigheter</span> \n \n" +
+        
+            "<span class="txt"> - Teoretiskt orienterad, tycker om allt som &aumlr av teoretisk karakt&aumlr</span> \n" +
+            "<span class="txt"> - Spelar g&aumlrna mycket schack</span> \n" +
+            "<span class="txt"> - Klassiskt skolad gitarrist sedan m&aringnga &aringr tillbaka</span> \n" +
+            "<span class="txt"> - Fortsatt matematiskt intresse, aktiv medlem p&aring Mathematics Stack Exchange</span> \n" +
+            "<span class="txt"> - B-k&oumlrkort, v&aumlldigt god k&oumlrvana, och k&oumlr g&aumlrna bil</span> ";
+  }
+  </div>
+
+  public static void main(String[] args) {
+    try {
+        System.out.println("CV - Erik Bertse \n ");
+        System.out.println("Utbildning \n ");
+        System.out.println(new String(utbildning().getBytes(), "UTF-8"));
+        System.out.println("Arbetslivserfarenhet \n");
+        System.out.println(new String(arbetslivserfarenhet().getBytes(), "UTF-8"));
+        System.out.println(new String("&oumlvrigt \n".getBytes(), "UTF-8"));
+        System.out.println(new String(ovrigt().getBytes(), "UTF-8"));
+      } catch (IOException e) {};
+  }
+}
+
+</div>
+
+
+</code>
+</pre>
+
+
+
+
+</div>

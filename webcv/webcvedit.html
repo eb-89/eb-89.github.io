@@ -1,0 +1,50 @@
+
+<div id="webcvedit">
+<!-- <link rel="stylesheet" type="text/css" href="/webcv/webcv.css"> -->
+
+<pre>
+<code class="cvmarkup">
+
+<div class="commentdetails">
+/*  
+* Erik Bertse
+* (e-mail adress, contact details)
+*
+*/
+</div>
+
+
+<div class="codecv">
+  
+import java.io.*;
+public class  <span class="cvtitle">YourClassName</span> {
+
+  <div class="sectionbody" >
+  static String <span> getText </span> () {
+    return  "<textarea class="editable-txt" maxlength="20">Try typing here</textarea>\n";
+  </div>
+  }
+
+  public static void main(String[] args) {
+    try {
+        System.out.println(getText());
+      } catch (IOException e) {};
+  }
+}
+
+</div>
+
+
+</code>
+</pre>
+
+<script type="text/javascript">
+  
+    $(document).ready(function(){
+      $('.editable-txt').attr('contenteditable','true');
+
+    });
+</script>
+
+
+</div>

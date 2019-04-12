@@ -1,0 +1,71 @@
+
+pre {
+	margin:0px;
+	white-space: pre-wrap;
+	/*transform: scale(0.5);*/
+	/*transform-origin: 0 0;*/
+}
+
+#webcvedit {
+	background-color: #010110;
+	padding: 30px;
+}
+#webcvbody {
+	/*position: absolute;*/
+	/*top:0;*/
+	/*left: 0;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	padding: 30px;
+	background-color: #010110;
+
+
+
+}
+
+.cvmarkup { 
+	
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10pt;
+	color: #212121;
+
+	/*transform-origin: 0 0;*/
+
+}
+
+
+
+
+.commentdetails {
+	color: green;
+	/*font-family: "Courier New", Courier, monospace;*/
+}
+
+.codecv .cvtitle {
+	color: orange;
+	font-size: 1.6em;
+}
+
+.codecv .subtitle {
+	color: yellow;
+	font-size: 1.4em;
+}
+
+.codecv .subsubtitle {
+	color: #e26f06;
+	font-size: 1.2em;
+}
+
+.codecv .txt  {
+
+  	max-width: 80%;
+	
+	color: lightblue;
+}
+.codecv .editable-txt {
+	color: gray;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: darkblue;
+} 
