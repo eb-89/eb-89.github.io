@@ -34,7 +34,7 @@ Generic keyframe and animation
   margin-top: 0%; 
   text-align: left;
   font-size: 16pt;
-  color:darkgray;
+  color: darkgray;
 
   padding: 20px;
   padding-left: 30px;
@@ -66,15 +66,15 @@ Generic keyframe and animation
 
 #navbar li a, a:link {
 
-	cursor: pointer;
-	white-space: nowrap;
-	color:darkgray;
-  	display: block;
-  	padding: 20px;
-  	/*background-color: gray;*/
-  	padding-left: 30px;
-  	padding-right: 30px;
-  	text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    color:darkgray;
+    display: block;
+    padding: 20px;
+    /*background-color: gray;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
 }
 #navbar li a:visited {
 

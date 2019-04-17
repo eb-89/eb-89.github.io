@@ -26,8 +26,7 @@
 	/*margin-right: 3% !important;*/
 	/*padding: 10px;*/
 	box-sizing: border-box;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding: 2%;
 
 	background-color: white;
 	/*overflow: hidden;*/
@@ -52,7 +51,8 @@
 #navigation {
 
 	display: block;
-	padding-top: 3%;
+	/*padding-bottom: 3%;*/
+	/*padding-top: 3%;*/
 	/*position: fixed;*/
 	/*margin-bottom: 5%;*/
 	/*width: 25%;*/
@@ -102,7 +102,7 @@
 	margin-top: 0%;
 	margin-bottom: 0%;
 	background-color: white; 
-	padding-top: 10%;
+	padding-bottom: 5%;
 	/*box-shadow: 5px 5px 5px #000000;*/
 
 
@@ -193,12 +193,9 @@
 	font-size: 2.5em;
  }
 
- #footer {
- 	position: sticky;
- 	float: bottom;
- 	min-height: 200px;
- 	background-color: lightgray;
- }
+
+
+
 
 
 #webcvbody-holder {
@@ -218,8 +215,28 @@
 
 #webcvbodyedit-holder {
 
+
 	padding: 20px;
 	border: 2px outset black;
 
+
+}
+
+.footer {
+	display: table;
+	overflow: hidden;
+
+	margin-top: 5%;
+	text-align: center;
+
+ 	min-height: 200px;
+ 	background-color: white;
+ 	box-shadow: 0px 0px 100px -7px black;
+}
+
+.footertext {
+	font-family: ABeeZee, Tahoma, Geneva, sans-serif;
+	display: table-cell;
+	vertical-align: middle;
 
 }
